@@ -140,3 +140,9 @@ At a high level:
 * Now select one of your lights in JMRI that was created as a C/MRI light. Choose to **Add control**.
 * For a green light, set the **Control type** to *By sensor*, then enter your internal sensor name, such as *IS1001*. Set the state to *Active*. Now, when the route is set and the internal sensor is set to active, the LED will light.
 * Repeat for the red light as part of the signal head, this time choosing *Inactive* as the sensor state. As the route is set, the green LED is turned. When the route is not set, the red LED is turned on. These states are shifted out by the Arduino to the 74HC595 shift register(s).
+
+## YouTube video
+
+On my YouTube channel for Newcastle Central (OO gauge), I cover over how I put all of this together to end up with usable signal control using JMRI and C/MRI. It's a balance between the written word and seeing it in action through video. Hopefully they complement each other:
+
+[![Signal lights using JMRI with an Arduino and C/MRI ](http://img.youtube.com/vi/sdKwI6FjEvc/0.jpg)](http://www.youtube.com/watch?v=sdKwI6FjEvc "36 - Signal lights using JMRI with an Arduino and C/MRI ")
